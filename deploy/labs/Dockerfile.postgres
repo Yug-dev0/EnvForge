@@ -1,0 +1,11 @@
+FROM debian:bookworm-slim
+RUN apt-get update && apt-get install -y --no-install-recommends postgresql-15 postgresql-client-15 python3 python3-psycopg2 chromium curl procps iproute2 \
+    && rm -rf /var/lib/apt/lists/* \
+    && useradd --uid 10001 --create-home engineer && useradd --uid 10002 --create-home labapp \
+    && mkdir -p /app /opt/lab /var/lib/postgresql/data && chown engineer /app && chown postgres /var/lib/postgresql/data \
+    && touch /var/log/lab-app.log && chown labapp /var/log/lab-app.log
+COPY deploy/labs/server.py /opt/lab/server.py
+COPY --from=ghcr.io/astral-sh/uv:0.11.1 /uv /usr/local/bin/uv
+RUN chmod 444 /opt/lab/server.py
+WORKDIR /app
+ENV PATH="/usr/lib/postgresql/15/bin:${PATH}"

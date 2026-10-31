@@ -1,0 +1,96 @@
+x-runtime: &runtime
+  image: envforge-api:${ENVFORGE_IMAGE_TAG:-local}
+  build:
+    context: ..
+    dockerfile: deploy/Dockerfile
+  environment: &environment
+    ENVFORGE_MODE: saas
+    ENVFORGE_PUBLIC_ORIGIN: https://${ENVFORGE_DOMAIN:?Set the public domain}
+    ENVFORGE_DATABASE_URL: postgresql://envforge_app:${ENVFORGE_APP_PASSWORD:?Set a random hexadecimal application password}@postgres:5432/envforge
+    ENVFORGE_SECRET_KEY: ${ENVFORGE_SECRET_KEY:?Set the credential encryption key}
+    ENVFORGE_AGENT_HOSTS: ${ENVFORGE_AGENT_HOSTS:?Set approved public agent hosts, or disabled.invalid}
+    GEMINI_API_KEY: ${GEMINI_API_KEY:?Set the managed provider key}
+    ENVFORGE_EXTERNAL_WORKER: "1"
+  read_only: true
+  tmpfs: [/tmp]
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  pids_limit: 128
+  restart: unless-stopped
+  depends_on:
+    postgres:
+      condition: service_healthy
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: envforge_admin
+      POSTGRES_DB: envforge
+      POSTGRES_PASSWORD: ${ENVFORGE_DB_ADMIN_PASSWORD:?Set the database administrator password}
+      ENVFORGE_APP_PASSWORD: ${ENVFORGE_APP_PASSWORD:?Set a random hexadecimal application password}
+    volumes:
+      - postgres:/var/lib/postgresql/data
+      - ./postgres-init.sql:/docker-entrypoint-initdb.d/01-envforge.sql:ro
+    networks: [internal]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U envforge_admin -d envforge"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    cpus: 2
+    mem_limit: 2g
+    restart: unless-stopped
+  api:
+    <<: *runtime
+    networks: [internal, egress]
+    cpus: 1
+    mem_limit: 1g
+    healthcheck:
+      test: [CMD, uv, run, --no-project, --no-sync, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/ready')"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 30s
+  worker:
+    <<: *runtime
+    command: [uv, run, --no-project, --no-sync, python, -m, apps.api.runner]
+    networks: [internal, egress]
+    cpus: 2
+    mem_limit: 2g
+  web:
+    build:
+      context: ..
+      dockerfile: deploy/web.Dockerfile
+    networks: [internal]
+    depends_on:
+      api:
+        condition: service_healthy
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    cpus: 1
+    mem_limit: 256m
+    pids_limit: 64
+    restart: unless-stopped
+  edge:
+    image: caddy:2-alpine
+    environment:
+      ENVFORGE_DOMAIN: ${ENVFORGE_DOMAIN:?Set the public domain}
+    ports: ["80:80", "443:443"]
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - certificates:/data
+      - caddy_config:/config
+    networks: [internal, egress]
+    depends_on: [web]
+    restart: unless-stopped
+volumes:
+  postgres:
+  certificates:
+  caddy_config:
+networks:
+  internal:
+    internal: true
+  egress:

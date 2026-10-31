@@ -1,0 +1,4830 @@
+{
+  "schema_version": "1",
+  "environment_version": "0.2.0",
+  "verifier_version": "0.2.0",
+  "implementation_digest": "sha256:97cc802871a8b7c3aeba003fa9c201e5b1d5cb5c5f4b833f44971f69fde609f2",
+  "status": "PASS",
+  "instances_per_tier_per_suite": 50,
+  "instances_tested": 600,
+  "reference_successes": 600,
+  "determinism_repeats": 20,
+  "determinism_passed": true,
+  "exploit_checks": {
+    "tamper_health_endpoint": true,
+    "restart_service": true,
+    "restart_healthy_worker": true,
+    "rollback": true,
+    "edit_config": true,
+    "rehashed_snapshot_forgery": true
+  },
+  "failures": [],
+  "manifest_digest": "sha256:f139d9964c03b9ba2d33cd0a41a79e8f4895249d3e2744cd3a3b6b6610814879",
+  "instances": [
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 0,
+      "digest": "sha256:7f9bb3b498cb7de8de8278ab38d95cb545ac072cf3f4981146be58a3b3b5dc9c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 1,
+      "digest": "sha256:cf01ccc815f095865ab85f03a90f85973d33be7a18e03b0d4c598e98e41819d9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 2,
+      "digest": "sha256:ba1863e658fe4efec422877338babcf95cdbf2e8912f61ef808a04483d40de86",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 3,
+      "digest": "sha256:18f880e8bc2adf3441d7416ba4eed1751c21d0f4d380d39a09ac63a78aa7ef17",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 4,
+      "digest": "sha256:c91545d59836e2af51cca9de5eb323bf31b4426f6b29b398ae8afad2c90d411c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 5,
+      "digest": "sha256:d4aff0bda12fda6e5ec023b9bbbc255b0b0c2a78a0506a96c517d53375887749",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 6,
+      "digest": "sha256:c37d1a5f2812eff78396317cf6a480c5be3bf1697570eef8ecdf4fc38df69201",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 7,
+      "digest": "sha256:5921aa93d2e0c93fefa3b7628748ee2565910d45aa649da10ef4ca32c2283ae2",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 8,
+      "digest": "sha256:918f89433c7b6647df859b5b2b2d4af13d889eb09b060080e80d721bf31a22d9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 9,
+      "digest": "sha256:0ff328646c3e908677cd007a677db13b94c48f8ba1a3b49cc9134cbd96d588e3",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 10,
+      "digest": "sha256:8b1cf546f3e23d3b7cfa926e37414b49a6091af51e2e330c7f123a51b1582f40",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 11,
+      "digest": "sha256:73401be790a125a958dc4bcdc08726da0605ef8972900709c0e08d1d00be53be",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 12,
+      "digest": "sha256:a301357b8400853f8ea94f2d65af8cb06995db3430c3d274a4769e919f07ea35",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 13,
+      "digest": "sha256:ea99fb1abd9c71d7eed09ee25729af7df59baff80c5588053a17c2f4d44200a8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 14,
+      "digest": "sha256:489fb71a6df8a72a03c35a8ea113e8eade763fda52a44718520a76dcdcf988da",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 15,
+      "digest": "sha256:57d02f982deed41149b67a51e899a13548e1cffbeff0b2ddbf2ec7296bbf92f6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 16,
+      "digest": "sha256:42356538c57df45e407d52c8d8afed01aa17a309d27f06d09b6a82270dcaf4e5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 17,
+      "digest": "sha256:4cb2b8550a3ecbbea964a5e8024d2657131278f381b310a0b1b15b9a3bbff684",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 18,
+      "digest": "sha256:52f0d15dceed3bd3940d1c00593ee546753e9e8722a2412fd0a78dee48328f68",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 19,
+      "digest": "sha256:9850dd381822a0e8372a1c04503600244058da7338c064aa19eba157be525b67",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 20,
+      "digest": "sha256:3b7fc12a0f75f2248c86a2cb82bace9b5deaa63253cd7a62f9b17ec8bf646425",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 21,
+      "digest": "sha256:5146ae303f7c1e8db553ee98faf652aa27e41ec39d87ead43cefc34d14cc37fb",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 22,
+      "digest": "sha256:ceb11a35a9225c47b94968beec0e55f3b7638455648446b343a1842debce9e8b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 23,
+      "digest": "sha256:778a9f6c367724594d73b722378bb5acec6cd57b9d6f703f593cfae4941f4995",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 24,
+      "digest": "sha256:28787058a4aa9f574608940aa957bd8e06fff11814e251f1cb4fc2a406dd38da",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 25,
+      "digest": "sha256:1bfc894d0989b73f5d50d0b3f42ba5ca97e133eaca324551c20ccb99a3caa031",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 26,
+      "digest": "sha256:5621a558ccf981c5569e973aedf5a2c3492924038b0ed21795cd1aa6f2ad299e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 27,
+      "digest": "sha256:1ad3d877afe4ee4f07823b3e475dd95d35d58a00c10b4bd445d0ce2dc26cd9da",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 28,
+      "digest": "sha256:138d5d1e90b6e3f63c6ac723bf34ecf10d695db8e5576809158d78cee5d94004",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 29,
+      "digest": "sha256:96585cac8c27af58a122bf79bb717c9d933787f28889acd970041cf65ce7e3cf",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 30,
+      "digest": "sha256:c532ac520ebcfb6cd2895ad2e9ef0185515317623c38af3c9095a5138fc625be",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 31,
+      "digest": "sha256:45dcd3aaa626532f96cb534de160e89bd5c1f80b9573e5aa98fb43fdc5582516",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 32,
+      "digest": "sha256:db05620bb1d0f0004d908f5aa21562d3594380232940efdca9a7c1af458e95a9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 33,
+      "digest": "sha256:8fbc22c69946a825c322943f2dacfa0b7885ed62b145241d44a373b390aeaab6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 34,
+      "digest": "sha256:a2544fb7f22ac0be0c9330348cd9e6ab7a2b045675de431e720472704d01455f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 35,
+      "digest": "sha256:5eb9b06578ec4d91d53452201c68156ba8e71ca2d27bd551feac845f2ad068ba",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 36,
+      "digest": "sha256:e8061069a2364d0d963213b0cc62b7b41eae33c0c24f2bbc34357461599522b5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 37,
+      "digest": "sha256:ea06834d766ad199e69535dd3e3ef9e4443a7c6fac02edacaddbe56dabe3c635",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 38,
+      "digest": "sha256:6b827558edba94b61dadbb943928c1783c38180df5c70ef9dc8132b685f462fd",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 39,
+      "digest": "sha256:b805133a55410e323784651c3f861a350ee7c010202d200eee043c1795a0c5cd",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 40,
+      "digest": "sha256:14fa23e5e08ba7ab82592216148fabfe6d218c1531d24cc8f031d48501b06788",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 41,
+      "digest": "sha256:4c3dcfb7cc8a69a0c8f7a8f5f02ed524f60b7c60b57092a16e7ad0e158354c38",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 42,
+      "digest": "sha256:8131e6cfec06026f4dfa07de2f4cdde829a3c454575c879bf33664157700bf1d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 43,
+      "digest": "sha256:1a01f5bcc6dd28de22fc431e7b56a93ce740888aca3d4d2d72ecdf40027d7a93",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 44,
+      "digest": "sha256:4435e45aa3e3c61305e90664354afa6932a8aaaa8d363406ac60184baf689e8d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 45,
+      "digest": "sha256:2509c774d26f08567877efab267c780575c620fc4d3e2aee1054addeac9e00f9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 46,
+      "digest": "sha256:71d3628fe65e492ccf008c45c97e7a353be2c6bf071cfb211967c8841de4a5c1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 47,
+      "digest": "sha256:a95d32f90d343b16dd72836c31d396e4de4ec2964ab368e97b90e34b95647c3f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 48,
+      "digest": "sha256:b6ec5a66fe40d352cbc58987f6768a20c9e61c1d8e184644188f8fa8cf8c1775",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "easy",
+      "seed": 49,
+      "digest": "sha256:5e03267f9943e1f6df14e2638d92faf5a0f161fb8e40a750f46dd551d44ab8a3",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 0,
+      "digest": "sha256:5ac46e2d1f728cd7c52cc83e50a263bbe9bf8467551bb45b20a7c991fd0c7022",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 1,
+      "digest": "sha256:8f83ca04eaa5ee2895561159970e5a9e87a4dd7541804c234b0053f4f79c0dae",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 2,
+      "digest": "sha256:0a03258365eb560d04bca522bf92dc136b8542149dcf9aeb0e72f2f3b3b00ea8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 3,
+      "digest": "sha256:cd839164850e4aa9a6838d39ef6a0853f42913b5319a5c1bb2fcb7e9396dc9b5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 4,
+      "digest": "sha256:231993933fa5c1f7ad37324329e360d579c8491114ddac8e9f30a69470e8c0d9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 5,
+      "digest": "sha256:e80e5adad1f3f75f3eda347f0601843cdd27d7f16939f5313051bfb6a471fc5b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 6,
+      "digest": "sha256:fa9300a369571f558dceb9b6d6efe6f031ba6af1016f5c20977f75ed6aad2242",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 7,
+      "digest": "sha256:d4439dcccbf9d5f0bc85198d7b475de085097e969eb76aaa17dcdc78af27bd57",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 8,
+      "digest": "sha256:ebf9131dcbbe746004e75ce5358d3c11946da6384f9346e834953185e89e11cf",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 9,
+      "digest": "sha256:d15b1a40e4d343c366db1d09e6ecc2dd7634fd02929647638f8a3424ba42b723",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 10,
+      "digest": "sha256:a01798c08a8d3237d68f76e19cbe4e5438fafc3a73165b3f7c728d270050e887",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 11,
+      "digest": "sha256:e35137e78878677da0ae5627e43076128a05b9e76175b60c986ba871c0faa586",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 12,
+      "digest": "sha256:95e67385bc460c33b4312e42ba1b4e2ddce17b8b28fb7e55ff32c07f1dca66a8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 13,
+      "digest": "sha256:d8ae734853cfaa79cb96b5d6375a819465fefed54c55acb7337f1895e51f8f5a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 14,
+      "digest": "sha256:50fc3a0c1c73ec95b71e944609ceee6150714154234db9ebe0fa54a1e04676c9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 15,
+      "digest": "sha256:de758631e5da459b69d02721e85df15bec99ee1d1ff6bcc028ce9d356dc1800b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 16,
+      "digest": "sha256:51d5d41cfff07a673c9743a2973266579774961a4a4b3204f023018bf8580c11",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 17,
+      "digest": "sha256:3123c3d36c07871eef60494de6e135a36b2be16b6ddf606473271529d7de4523",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 18,
+      "digest": "sha256:05a6ab6cf20c6deac73980efb11d5b11cfc4ac2a1d89a307e657c4c466fbb0d7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 19,
+      "digest": "sha256:3783db1d98c16f513240eb3d85f2ccd849eef3735d74828eb70b49870e718a36",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 20,
+      "digest": "sha256:8892da6a52451524ae763a2e8bf3ac3e450b59658affa93dbf4dbd21d0ac8a25",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 21,
+      "digest": "sha256:b10ae0ae3cd79365e0961bb1281ff740eaf9bfbf5c47ccc71c4e740936e74131",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 22,
+      "digest": "sha256:5e1b4158309edc734d052575daa9a347a879274a4bea1997a684047fb9554bc2",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 23,
+      "digest": "sha256:36562b56d57c11304fb0894b2077ed9f9de34c4ea21ff3254e77a2fb4a3c1823",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 24,
+      "digest": "sha256:d56cbc1bdcfef7199a0963748098641a90b642e8d41d16b48a421795af9a620d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 25,
+      "digest": "sha256:19a8c481be329e6d691a4b1a8b06b5cc2f56fdd85fecffa63d60ee90ebe2d7b5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 26,
+      "digest": "sha256:0c25fd0461d8c4bbbefc9e948faed24f724298dcf6e36be7a69d5e347e5926f8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 27,
+      "digest": "sha256:66466f2319bade774d1000e26a86aed562081129f3e2e12455171b479b06355d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 28,
+      "digest": "sha256:c14ea69468a7a8d12d6a0d15c3b5101bf19dda01a96589087de040585e6e2c63",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 29,
+      "digest": "sha256:8a018251f7db555d50749660896cd66fc3daa417aa3e443f27be2e225c4e78f1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 30,
+      "digest": "sha256:c5a27db30f6829a0c0077fca589b6cc1ac39f60dc1238b417f2c939afe9d43e4",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 31,
+      "digest": "sha256:fe45939ce743206dd1e4642a76854c8b062b4e07e86a5780b40b4c5b9f72d927",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 32,
+      "digest": "sha256:7fdf7566c34e023e29d05b6867efef688cab4584aeda1433666718ef72ee2f78",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 33,
+      "digest": "sha256:8de16cdd456c2b2e89b3bf9daec798b7812e1e8b6b18761bd81f56c84694c7f6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 34,
+      "digest": "sha256:c2a99c50e89efcacf5189cb71f5ec24b63a6e268f49f6a1b6dca879f04d5b546",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 35,
+      "digest": "sha256:f77190ffc464dbada9c4f46dc1e49028beba2489c58085b9cefa91b2fa2b83c6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 36,
+      "digest": "sha256:39426082f23f36f51a06eff5d4bce05867cd442e69b45e5c41b695720cc403d5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 37,
+      "digest": "sha256:b502de36bd77e731c69b6627e933a971a78c32e927fa8a57607bb0508e5ab622",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 38,
+      "digest": "sha256:edd028c8214c81c45f53ad10f70971fee63e22b7212de6b3e45b9457edb7e2eb",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 39,
+      "digest": "sha256:4b0c2d08d50e8cfeccc3cc437246fd9aa1d3064d476e36694206b041176f8089",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 40,
+      "digest": "sha256:dfaa50ff43d262e3ee558013aac29914bc8bfd9fc02add10bc48a9a09e4ee337",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 41,
+      "digest": "sha256:b0993e17cc6c3600478eabd6d2bcabd4ba2ceeec02a833a797d8579999c1b135",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 42,
+      "digest": "sha256:96e46072072cc728f2e7d2cfbc4837458bd64bd8c780db882e86bd484d479ee8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 43,
+      "digest": "sha256:3e10667fed367b826a6672715319e69779d48aa54b7a74b032f7066716192ca7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 44,
+      "digest": "sha256:4500d93b278c5f10cbe9f731dbfafcaf3cef7e66f3acca8c3954095923706733",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 45,
+      "digest": "sha256:10fe4f04d8a14fc78d2c299f2dac59ab0263a0db4a1659a1b7f9ef7ae898e600",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 46,
+      "digest": "sha256:fb0d51429d089575a6551925918a36976386a9e2ea70474c4d5e83423b1cbe22",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 47,
+      "digest": "sha256:e06a53098e1519092b9812db46bcd786d42d61f6adcf7433de4c81da0e90cb39",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 48,
+      "digest": "sha256:93386c37938bd5fdb09d0c26cb9976a1ce110154802d1a157b62c6bc9de504dd",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "medium",
+      "seed": 49,
+      "digest": "sha256:fbc6a4a1a9abc520a28f0886da790b7bc3e668f139cbafd1feffaeba6691aafe",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 0,
+      "digest": "sha256:9c02b585ce01682913ad48426c44aa99bf93914a87c59c9ab10b3e3f02c62b18",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 1,
+      "digest": "sha256:823a23f80d238b25a4a9e0889e45624dcb65e8c635cf3002e2681c8a16c79c0d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 2,
+      "digest": "sha256:06440b17bb1eb67b7117e5af73962305d4857a553e67b59b39151278a72248a1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 3,
+      "digest": "sha256:e3b3ca3b9ee83376265c6695390b8fb06bfe6e1e02abc6a5f01ac0ae74c930ed",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 4,
+      "digest": "sha256:cd6d6ed41d00634f7343ae7dab4da8598b9befaf0b2a65f46c2d473454a71260",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 5,
+      "digest": "sha256:b361b4b64f7e06112190544c2a8554b395063dbd5aba8bad02b6796d9d9f132e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 6,
+      "digest": "sha256:bc21c4d2150f6800ffa8f66d38e7c2b831a5f283dec9cea7769bb7e891ded8cc",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 7,
+      "digest": "sha256:3141fcfdeee2d6f5ef0c4ee9574129aa23629dfce890dbe48f8d1904ece19431",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 8,
+      "digest": "sha256:cd10c95b5ad3bee0fb4044434778149930bd813b10390f61f532ed6c90d09b2d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 9,
+      "digest": "sha256:9e11dd9318e6aeff2f6cf665c2cf5d37e0ff01fca2a50dbaf98d7ec4835e7fda",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 10,
+      "digest": "sha256:0f17fca468961a55f8228493c5a1e7ec6b66bab7fce36a86cab2eabf1f7830ff",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 11,
+      "digest": "sha256:d174187198cac428aaf0ca760bd6e67fb9372408b155f12352ccc0032a94d729",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 12,
+      "digest": "sha256:e3a7e23a425562415f8e5ae68d3cbe774693041fdd830a56acb0981b1dae193b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 13,
+      "digest": "sha256:23ed61bcd34ba1bd7287f5b8eb89b676cf6b10774cb17a89db251f7c1fa9bd48",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 14,
+      "digest": "sha256:aa96c9f6767ceabe465c03d003b31ae91b657aff6051cc480748608cd24bc294",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 15,
+      "digest": "sha256:2be6497a14b266961326284fea68bddf7cd788c04c0f6b816f2f0fe08fbd53b7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 16,
+      "digest": "sha256:b2217d0e87b096550b56888d54cd8d3ffa4005261789f55b389ce57755d21083",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 17,
+      "digest": "sha256:691e4f531016f0b8c753e97e0b9422e1100e28febcc88af3fb358bf0115f9541",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 18,
+      "digest": "sha256:0a1acd6cdd0f466cdbc42dbc080a2e940692c90b3b6b4b823cdf41d63069108c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 19,
+      "digest": "sha256:e7215dc4aecd4d026538e82c832ca61f519a639c4d20604233688bcf04008335",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 20,
+      "digest": "sha256:1b7428bcf1f5000b65b46d552f1826ccc0296a79afe2764f59dd55afc9e4988b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 21,
+      "digest": "sha256:7a3d25f3b162b8b41246ffa5d2dc454951b6c784af80586fbaf8c203738e7b02",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 22,
+      "digest": "sha256:a6423922cc8c4675506cd3376fa6de63ed2f00dc3283a1a86f958508190f06b8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 23,
+      "digest": "sha256:02240854f0f0ff9e8b1193942410a6037800da0d2b1888ec913878bb61335e1d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 24,
+      "digest": "sha256:9f70725e8933ae03a224ca6b73be069a749132aa981cddee79bd60f3d35d1d3a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 25,
+      "digest": "sha256:cf46f40ae4a6945a38f910359fefbf646c50980ca731cab7661d6bf418fd059f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 26,
+      "digest": "sha256:1c053db93502c9779eb84d43c7505e6bd35708ce926990ce65b485e0087323c3",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 27,
+      "digest": "sha256:9669daa09d0124c5e288565ed74d31044ea00ead8ba3612fb48892c0774043e1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 28,
+      "digest": "sha256:1cac5489ef163b23c7de40d2109102a8db3105a808b440adad9d931f3a22ae51",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 29,
+      "digest": "sha256:5e1d8f5ff3e2d25139c9e1cf84574da2313755c492df9f15e1d01e3ffaae02ff",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 30,
+      "digest": "sha256:6f477a22962711c33985da9d827c6be472db19ef53438300923248a1ddcd256d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 31,
+      "digest": "sha256:03a42c70565d3c60cbbd1aeeb82bf4301a1fdc6470c3b7da5f0056bbfbe10a57",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 32,
+      "digest": "sha256:a09ea7d0748fb3a2eee58740e3760f2e69822b370d16393ab0893f20a0a595b0",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 33,
+      "digest": "sha256:c42742f0dc11840d493854b21dcec42cfb18db84b702129cc567b0abf97a5b5b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 34,
+      "digest": "sha256:183735dfd0efc6e4aaaa5cd541b4898e0bb1d766c12aed980903e576226b34d3",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 35,
+      "digest": "sha256:64606b41b6b743300d3c630beae5c3b24c0f844b3315b6442d60c23fd119fe77",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 36,
+      "digest": "sha256:7c666ec13b2c54171b730c1474eadda0c23a70d89efdb7de4134a68587ac4618",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 37,
+      "digest": "sha256:9215c773e500366a70442985c0509a2a3c04766525f132ff0dc31021866f1071",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 38,
+      "digest": "sha256:4504aad37c774def1877f0c131ee838cf5dd4d70d38da10528f1de05fab8e055",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 39,
+      "digest": "sha256:8ab4bf43a9aa408e8ddeb3f73ca48ed199dcaa1d21579f9898a42575e503c954",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 40,
+      "digest": "sha256:bb5e36bd0b16b077a92b0415a904e950adcfc83f3e4ea92e8ef3e04363c7e577",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 41,
+      "digest": "sha256:f1f3796cfe9f21d866a2bd5c916fb50a619b62d8df630b3a4dbbd00edbf2e3eb",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 42,
+      "digest": "sha256:ed787f4653a4d88f52c330b258d26db9cc0a7d8cd8f52c635eb64e2781e452c3",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 43,
+      "digest": "sha256:680d6db35039882602005da2a531b1438f6d0e229bf6864524a5b9a9e6e84016",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 44,
+      "digest": "sha256:93f2e14cd6b2ff752e0deff6be458b2f81a8dcd450250d0a35c6e22a0e8c0824",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 45,
+      "digest": "sha256:f006464ae5e1ea2871cab34d761ff63f8ace908f8c4fe6f00e7f8b603139556b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 46,
+      "digest": "sha256:463eed3d5d453875bde5af45727beaa52c60d27abf2e480f89a952b7a915b831",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 47,
+      "digest": "sha256:5b88e59f1ea8f977c756930bb80d3ff38452e71bf42b90fd1f9e50dafd82bd52",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 48,
+      "digest": "sha256:35b38cdce3b099b986f878271d37c8584a115a583e20abf010e1687ac7af112c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "smoke",
+      "tier": "hard",
+      "seed": 49,
+      "digest": "sha256:1954e0597b7fdf1830f3795dd770609fb34498d5ebcf9f315e6bb82d6187f298",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 0,
+      "digest": "sha256:ebc98eec547813fe8cce0866c81ba3ab1d1f471032ee8c6dd9848d648813b8b5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 1,
+      "digest": "sha256:7200403ec7259679fa9a7397c39c9ad3b087eda8ca4ae510650e36a2f030a151",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 2,
+      "digest": "sha256:1be83c52f81d7fefe464425175a3e4fb77cdbd28f1c4734450ba0c416234d282",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 3,
+      "digest": "sha256:5d547350d34c5e538c0a5eb0ff9f5aac50ded28338ee2e24aba5b4eab70ce6af",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 4,
+      "digest": "sha256:c4e5fc53c6b5ee3c60baf5131bda6eeb5c39fdd3a5deb4d04abc29b0ebe7478f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 5,
+      "digest": "sha256:b700b6e9409f832fd1f5b2486d4fd7e881f6edd9175eed76e63eb42f253c3c06",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 6,
+      "digest": "sha256:aef2469c43bb23fde63b8b16dca4aaae78239de615942b2829169a0d19f263b9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 7,
+      "digest": "sha256:7eaaf2b8fcfee4cfc613d4a10a7fda9d9adbb41524790c2d3a6b77138022e6e7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 8,
+      "digest": "sha256:bba572f096fd7740b957fb0af1bd84f0ff31cc696a9998cffcbc7ee2c2256ada",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 9,
+      "digest": "sha256:a1bc824c8fb2c3f20136e401a18bc0d3b5c4a8f71e6e19b832ff18651bee772b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 10,
+      "digest": "sha256:8584cc4e7203596269165e4ac737a67318faa2f9216e877362ab3e164c1c464d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 11,
+      "digest": "sha256:b00fa64fe03b360e0048afa93bd111173b760e95afbe1632fc6d64975d48948d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 12,
+      "digest": "sha256:e61a6c9170b463fe7790a76ffbff1cf73e65d60137a7dcf7908750fa61589eae",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 13,
+      "digest": "sha256:4dc3402918f41338efc9344647bf06e16bb27987686e83f7353f118a4c285579",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 14,
+      "digest": "sha256:1e767acd2aaad433f1683eae42fd43e56d460d1a3c87b125f4da0dc81e87349b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 15,
+      "digest": "sha256:c49d2b06101ae459e953b173fac3ccf4a751f76330078ba4c251d7097c9d1a0f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 16,
+      "digest": "sha256:a9af461587c6a641564e77219b4fd16b1b150d6bcf16f896084d5bc04e9f9b38",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 17,
+      "digest": "sha256:cf75ed003cb4382638b203453e417a97f369556781b1572d9b9b524f30606e44",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 18,
+      "digest": "sha256:5ed48fbf043a7707125daca6d4f3f980bedaf1f5d0c691381f7ad5ad738c06f3",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 19,
+      "digest": "sha256:fed89b806bc17de673fa01f864a3cb7c7e0447ba671cb211ab5ed45bbe092f41",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 20,
+      "digest": "sha256:aa3f77876f6dff7da4381ac126d3d9aad45bb8bb9919a5539a8e222f2f882414",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 21,
+      "digest": "sha256:851a841e9da7ffe4afa9791d0f8c8f55c2672327ef5ea505d2bef5d1b05c22f4",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 22,
+      "digest": "sha256:8ff40660503a6edd2aa9e9bf4f7e07432a0686d0b1998de9db6f6cb810de7b0c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 23,
+      "digest": "sha256:d8f715d9c328823706f817ace6a41335b1333e4147f0669be843f70a6bb09ea5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 24,
+      "digest": "sha256:8b2548940158f77f01521813b293f485eb5e7d579cd75a0eb7fbdf07920f5a26",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 25,
+      "digest": "sha256:d02a0494755ff1fa7616d63f81c5f584643941d7df1ec326af4f86ddeae03587",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 26,
+      "digest": "sha256:4dc3b26d3d4ee649e2153ccc8aa726c5b2dfbdd55bb4594b8764c38f2d3fa23f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 27,
+      "digest": "sha256:c3f7ed30361609a57b147f8b766c7d81a149b081049aba7600ba01caf22d5353",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 28,
+      "digest": "sha256:1d18d7831df5a1bf7ee178ea20c43f7ca3cbccadf25badf30a179cfdbd7827f0",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 29,
+      "digest": "sha256:214d3c281b49312308e6d60faf7642aab19bc1042a7d7b3e1e0b24bdcc2c93a8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 30,
+      "digest": "sha256:b18bd6f7e6164950c80243d67fa5359d6afda2d1f6aec6946a720168429b896b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 31,
+      "digest": "sha256:aa6cf10cdd6dff8f72c78cb1458feb9f80b5d4a636398661b3cde8774eea7a85",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 32,
+      "digest": "sha256:e2c13114b652629eaab0df3332df4ff340257d599e9f2de8ec921104e37128ac",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 33,
+      "digest": "sha256:ee3aec434c4cf77466a83941e53cbce2b3ef78ebda30dc885111b168e81e28e1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 34,
+      "digest": "sha256:7c244e4f75da0b706ccbfdeb0a0af05fcd5d39c6b8f51f3a4dec2ca2fd2cd681",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 35,
+      "digest": "sha256:7657101f4800c2b361b7876614f3d1bd74c51aa1a52062a7514ee16a99f48f16",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 36,
+      "digest": "sha256:5d2a37798a19292d803b59904762a3b8324e07670cecfd0bdd8a11dfd7a7f099",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 37,
+      "digest": "sha256:570d09d1fd3652e6554abff0c015ba448b66ef03db587f799e7377411ebe2dbb",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 38,
+      "digest": "sha256:6e018db3bb0b3d494a467ea7f9a2c7f29e7a059eabcea61eb09fc9fe459afdd5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 39,
+      "digest": "sha256:e98b787d161ddbce92fd00d0e303e22062407cfaf4ae39f2df11f80664a61bdc",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 40,
+      "digest": "sha256:78bc785e304a56b7db79e99fd5a80fde2485657239cc3f90e373b9379198a195",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 41,
+      "digest": "sha256:c15094b9e81cb80e0b147cf7ffcd7a6ead0e2e25dd4552fa7f69b7730d17d8e5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 42,
+      "digest": "sha256:90700995e065ca5680ef9f04633c82a575bd2689c55420ffa83b2c358c04d0a7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 43,
+      "digest": "sha256:279f4b22d9466098374af6de0957dcbc96462e0dc771dcf5a54455dc3d7cac7a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 44,
+      "digest": "sha256:94c4acbcc18ec3a6ce03e83ecd452426ecc0bdfa8e289712d3a8d551fe21ff93",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 45,
+      "digest": "sha256:adac04c9a6069ec6579671d62545bd0ca3b92d6519fa6af80a8b18371a90c57f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 46,
+      "digest": "sha256:b6e36341a55d8f4056e7a9c0f9d6e52b0963f7ea993377d83dbe13f9a9619a7c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 47,
+      "digest": "sha256:ec6528c9d7cbd252b8d9cf5d3306ad1583c945be19d7c27e1c8598b515bb6c2a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 48,
+      "digest": "sha256:4dc140840b32a1c4d4e10be71b92d99e04c2c610b4653f29d85ffcb6a8607107",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "easy",
+      "seed": 49,
+      "digest": "sha256:bec59c01a6a1d40d303c2a123290360a237da5398b45af329c9319af58b907b6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 0,
+      "digest": "sha256:cc9943c34bef2393f3883b8731d702271f74cad935ddda5c2515c22bf59db864",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 1,
+      "digest": "sha256:5dcf04de903744ddd1ce05d284431cf3914da18c0fceb2d540b37e3d34b93db8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 2,
+      "digest": "sha256:90121f5272696af98e8f5a5cd36ebcf578dd64eb0edc4fc2c7bcf2c78eed61d9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 3,
+      "digest": "sha256:d7b9b06c760afb792cb9e26ab3df1fa4ba53948fc0d18c5a869dc00b202592be",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 4,
+      "digest": "sha256:82ed37519339f34cdce172b220cf149d7e2858245c0b833e2e64d582e3d0dcc6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 5,
+      "digest": "sha256:9bc7e5f81d1851fa244df6b54bc741b4c1d7db1c03cbbd8b99138474be99a2f1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 6,
+      "digest": "sha256:31a82b3e3121ce611dda9d41adf740316766042966c92b4491224ffb4e469cfa",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 7,
+      "digest": "sha256:f9b24e42e1b473d404bd21cb21003fe438dfbd94f5e36d48dbb9b7a7cad6667f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 8,
+      "digest": "sha256:3e57ddef2b39f9df311ab754c2b1b73f50f60553ebb01beb7b043017ca009e00",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 9,
+      "digest": "sha256:47954a1bd81113d2cf9736c7bfed0b89d8e89f50b9399b1d2e8dc90b77d051c3",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 10,
+      "digest": "sha256:9fdcb4c232a6f762d47969ab1a7b51e240210082f4da8f2ad6ce68d636adb7b8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 11,
+      "digest": "sha256:391261021303be68f552d3849323e759467c00b3181d15760aaf8bdfbbe2b301",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 12,
+      "digest": "sha256:64428ab63de1a413b390c379f8f14509817b8c69068a2a0c106f405438631492",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 13,
+      "digest": "sha256:0c69117470a819fa1e01ae1032d48de7d4cd309c4a56e91bd87048c0c394aed4",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 14,
+      "digest": "sha256:1f8f71786ecdb525a83e71f56009df92802e7348e0b4bcdfe9d14692615d4326",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 15,
+      "digest": "sha256:234705aa280db0f3c13e72a65d36ef6dc1df3a0c19bf0f2df473ac45de2c8b3a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 16,
+      "digest": "sha256:e2ed38f07681d1b734f5717044a39f985503b4022db9c3397f622d298b8f1ed8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 17,
+      "digest": "sha256:01208ba8364ecb7130af24a0e72dd6146878b2dc3125809226dc303925c05d05",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 18,
+      "digest": "sha256:cccc57c78144d689d590b60162e319174744f9b39579de5c3c6e2cc50bcdaec3",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 19,
+      "digest": "sha256:47eae1a4e969ac3165a54893814e27d7b4f686ddb8f0e753a4a4aed684c89046",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 20,
+      "digest": "sha256:17cb1ab06dc35a6a5a1c9ee54f1491b15a5300ff3addba78729f3b99a924fd16",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 21,
+      "digest": "sha256:7020522509867863e1dfc0eae1222bc5992628d5188d03d4742b087f6a04e9b4",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 22,
+      "digest": "sha256:a2ff7cad1057baf45c5554054506f0a01c71711213e6c4305277bfd8c60c45b9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 23,
+      "digest": "sha256:74080487bb120508ac158f7cc2d5d654aad5607f80a86b0afc824fba6e37cf77",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 24,
+      "digest": "sha256:fa0ad940481df91d012099cbd5ce7b806b34a65cef7f943d518193b833a83376",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 25,
+      "digest": "sha256:ddb76a8d5b832f6003c49c68f0ecb45696533ae65acd2839c2fc420c7cd540d0",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 26,
+      "digest": "sha256:d9c80f8832a2ff661873f87516beb9755eae226291dce538dab2c8d09e7080af",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 27,
+      "digest": "sha256:2618a5b96db3ed24ad279ff8ef1ec1f9ced6c6453bfe97db1d4cabe219451adc",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 28,
+      "digest": "sha256:d9097e181da51482e825a9f1344a5252b71405896e87002e7f074f5bc4389b43",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 29,
+      "digest": "sha256:7502bcd3ace817b336b22f4fe76679f96583baa72d4eb64973010a9fe76a2597",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 30,
+      "digest": "sha256:b0a29cb4d46c12d904bccd9ccaa0603cb544121c2a76ce1c3d356ae0bb976a4f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 31,
+      "digest": "sha256:b5c6b1576a34b36f5957989c9565517fb7fc92f423644da497553d18e1b6853a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 32,
+      "digest": "sha256:e2cc2aa386ae413b8e259028b4eeb78ca719813b0a719fc6ab067acea6440bdf",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 33,
+      "digest": "sha256:33e7ed8a50a39cc3936b332dbbe4d7e46e705cae456fb097a57edc148443b33e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 34,
+      "digest": "sha256:8a2cd9e8041df0038086f279d6f45e8bcc3fcb06874d7ea2852d7c7bf045e26c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 35,
+      "digest": "sha256:eeaa9f31d410fa5c1c01db94a8e28557ea71998f822e85a0a90ebb974bd21fc9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 36,
+      "digest": "sha256:e25ef90b75143f07eb230788f7dd246520b4c5647e3a4dc73d6175f2edd5bf28",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 37,
+      "digest": "sha256:563659c4c71f05feab00ae76d519c220bd67bc30e65157d8b1acec71130b817f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 38,
+      "digest": "sha256:7961f15674f15a23fcad5281b94d21ced1536cd233970dc514e70e38b53fa617",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 39,
+      "digest": "sha256:92583de4447f158d788833a7ac68d377a2c66ad0420bd091a942248c26bd08d5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 40,
+      "digest": "sha256:7f4a5e7b68ae0c94a20e4369cc2899b8dab210c03891f3cf10d78de9644ab323",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 41,
+      "digest": "sha256:0061aa9cb55b4a4d7eae394925c7456ac8adb573760a1093ddf21c9cca1733a3",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 42,
+      "digest": "sha256:262f9a47f70ef8acd0e3816a818b778175591ae13d6d8eb28bd82016fc7e774b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 43,
+      "digest": "sha256:50a929633959f140ae906a8b94298b473a0ccf743f2bb64e15b5dc98ed1b56a9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 44,
+      "digest": "sha256:86ea71255be82b607c54a3d7a0e18804098ac929ab3720781b27f7138f9a44b3",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 45,
+      "digest": "sha256:2cffa5c459e49a2c2fd3296f7a0f50bae93070258a3959dacd9da59d0733e5d4",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 46,
+      "digest": "sha256:291b1771680c7a479e0ff4c9563639c41f1bb8056767a39d545fd94b6c63d70c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 47,
+      "digest": "sha256:f98e8ce9a109ca55bab2452a66245f46e5c563f58e3d31ca92f37ba34ca143cb",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 48,
+      "digest": "sha256:aaef5ea78067363997291aeaa0462ced0b3b7a53c170a54e5ad6a3d3188b814e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "medium",
+      "seed": 49,
+      "digest": "sha256:a569a52959ec732461ee63688b30d027fe891a64da09213bcf913ff32545e6b9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 0,
+      "digest": "sha256:35de92f57d40b05bec8686809b5fff06c7b349d415eb563e52fda787517048ff",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 1,
+      "digest": "sha256:4ed3b5adc7eaf45587b2a230d8f0630b858df805c6032ad96811da20c33d9d73",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 2,
+      "digest": "sha256:16d0ae2971bd83e24602573d71f80a2a6b479ff2cc76ae393458c5bc795032cb",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 3,
+      "digest": "sha256:dfb790bf2fb1eb9ca4c258cd9f76bdfa17df56d85a2247b88e5746b800515c5e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 4,
+      "digest": "sha256:4fd756a4fc618f2dececc843dc2db341e75582361abf29cb50aec2e260404303",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 5,
+      "digest": "sha256:bea05245eeb5f159a40537f40833b7bdec3c9dd56b73b559cd3fdc3e123e9188",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 6,
+      "digest": "sha256:e537539ba010b4f90fc2a8027fa7f32f5ad28ba4b6feae3d9829842207f7f5ec",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 7,
+      "digest": "sha256:48936ec4532aabed02928c38a0e08f92e2f520803853b6924d60bc2698af0666",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 8,
+      "digest": "sha256:5421b37ce9f756f076172ffa22317d9754891c1af3da3619375fb1e9be13e027",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 9,
+      "digest": "sha256:a80beabfb3795640954834e04f83914f0f3fe3ef98a6bb869688bd3df54b6c57",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 10,
+      "digest": "sha256:080523c7a2ee8a454c683481563814ef6a44772940c1c71ae93596d7233bb734",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 11,
+      "digest": "sha256:a487981b077461c51dbf1ebc68b9dfd7c9cb0ccfba75d718a795e56f66db5b0c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 12,
+      "digest": "sha256:45d2df8cbe41a72d97ec14214af940bbc1e704eb55cb1122b18f54c94fce2c08",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 13,
+      "digest": "sha256:38ba827951c910cc9054712853d2fba34d4d13731d8f35590e51f73e0ebd3096",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 14,
+      "digest": "sha256:98012d536b2e4f044e298111c125ac422697a1ea52aae3ce88fffd7d10271488",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 15,
+      "digest": "sha256:746e7cc4151c496c6bd57a9d28e29ea55557fc3fbcb924fe5e00f139640ae512",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 16,
+      "digest": "sha256:60029bd7eb6efc77ec7b3b282f35b65862800bfbed3c3d161d873d61ace8c748",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 17,
+      "digest": "sha256:0581b4e86368f550f857e8e5aada4c8e83f3ffe76ecf14e897f27cec08570dd1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 18,
+      "digest": "sha256:82d8c0b8c55a632f495fc0e19eebe24e2abd18b4664163917d14841a63220c89",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 19,
+      "digest": "sha256:e1cc842b6699a6c8fc4b2b0f308c33c5d21a09a615f6d9b8fd0e2f0237d93b01",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 20,
+      "digest": "sha256:a680192565b7305df5b63e235053734f23a7e2ed9df540d8600e681b2def98d5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 21,
+      "digest": "sha256:a23634cc15ccc4c074698236a8c14df7adaafa09a07037c1ac90e5c3aadaf607",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 22,
+      "digest": "sha256:e1358e53ce0686d37365f1fdf84dd689f9ca40461ffe6bb2e844ea12483416e9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 23,
+      "digest": "sha256:694bca1d6726d49e60380973208d20d92b5866bf5ecc6dd96f24bfb55e8b9b07",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 24,
+      "digest": "sha256:e50dfb02def6df18b7e014ac64181324702d3ee6daf9b4dc4ef08032efe32f7f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 25,
+      "digest": "sha256:a94b83349acb82038ceca6e44e0d18ff6a0986bd5b40be9be7aa17198fa57d89",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 26,
+      "digest": "sha256:20fefcd18a289ddaade2eb539881d84b7231b03b784ad23f8b6bb99a869a20f5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 27,
+      "digest": "sha256:33d51398b5a872a315cf8e4c25b106126188a12df17fe621dad85fde83ecad06",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 28,
+      "digest": "sha256:ae94d850212032a0d87035d3b4974bb02e78e48131e8047576fec540aca79cb8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 29,
+      "digest": "sha256:03504d35e58108aed7b554d94f9dd8264afc2e1371b7f5ee07ea5392cdd20e60",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 30,
+      "digest": "sha256:b971a7227b4b8e9cd5ffa4bcc2a10207d286f904f0f99f709d3a120a82a12597",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 31,
+      "digest": "sha256:03cb68774a895c02fb47b02082a61acfd53f5bcdba0fa0aa7cde1d217d526d2c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 32,
+      "digest": "sha256:c2a9fa993045160db0b25cf59f3159521ae67b35924236aca50b333c62867c75",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 33,
+      "digest": "sha256:4c0a31270cc663080a3c3cca76cae7b1818c3e7c7bf7dc74711a74d78375fb4f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 34,
+      "digest": "sha256:9036482f40d8e43f801969e55c3c1294f9cf51fabd9e8039a9f43c8a248ea849",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 35,
+      "digest": "sha256:f7a88907bd0f2cdc149f986c7fbd064f4f670898f980f89d6f07d538907df446",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 36,
+      "digest": "sha256:e1d548e7c40037941e9298b1a678e9db75116ea225a484f52967c62615212812",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 37,
+      "digest": "sha256:edff8753e8d9125df24e04e6a77b771af10f86a433d6a57c7466c891039a79af",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 38,
+      "digest": "sha256:382c10d1a207795bb493afa453d4a26fd039685886a88c792f82f08cb7f35744",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 39,
+      "digest": "sha256:dcaafc3f99e75f383f568a1a393a599ac441cbd5cb0ab761dda463e841ce008f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 40,
+      "digest": "sha256:108a4000e9e439602dcff4c4042107e5e6991454c49cd6b6bd06c4132a5433c6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 41,
+      "digest": "sha256:d71fe6294f3904216820c59f1383e57f0f007511bda5f3dbaa92b13f992ea023",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 42,
+      "digest": "sha256:6ffa3441fe378270b03b3417e3b3b85c7a1d60df8b25ced8f5020c7837313de6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 43,
+      "digest": "sha256:7c6997a0b44eae0273033221f6b367aec0fc12fbfc5f5974b1bef862be504609",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 44,
+      "digest": "sha256:90e2c8f09d0433dc2f09e44c1dc0028e99f26572ecace64507b8fe96da6d4a2c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 45,
+      "digest": "sha256:59678d66099a724feaf64a6234596714362109be7f6b9722b6c0e00f7a53ddd7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 46,
+      "digest": "sha256:f6d832e2c6ac8a836d3d049c162c8382a6000f58cb779588dd48027803be2c6a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 47,
+      "digest": "sha256:b450e229b9694adec21c77f2f48ce83872b25a1ef9ae9445b4cd5db7d22547db",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 48,
+      "digest": "sha256:f24552fe18b52a9c696e570150b46984d601093e1b9f6a24737881695d39ff56",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "standard",
+      "tier": "hard",
+      "seed": 49,
+      "digest": "sha256:2855eaa4a0e5a4dd9f5058ddd8b20fd96b69717d0cfb5efd960d4fc3ebf12ce0",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 0,
+      "digest": "sha256:110e2437612490e52cbadbeae963eb3c1cc4e7aefd8df4f3dcd9eb794328a68e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 1,
+      "digest": "sha256:d66d54237a4d3bdd32770c33ed0a0cc6aa5ba443f4ad42deeb6530632a4097db",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 2,
+      "digest": "sha256:a0d210bca4f693d219392021d1fdf9f79a4c50d28828de1105ab90a7544b43ab",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 3,
+      "digest": "sha256:e5444e9d7b425f370986384d9c3056137ed23fd66e7d2eb45ce86f81e8c2c792",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 4,
+      "digest": "sha256:6654ea46125530a3ca4123fe6a7ebdb9359cb12c21b3911b2c4643d14653d5d9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 5,
+      "digest": "sha256:6e83271a169996476017b825068601534e4cbe9ceacc0925c126ed6ca1875a88",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 6,
+      "digest": "sha256:379bacce0e134359607700acd46a7ded3fca34946f32f3fff7230c9084af1872",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 7,
+      "digest": "sha256:4560a66096af713d93c3a063df325e20df1a04452ce671f0e2eff8f0a7569e7e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 8,
+      "digest": "sha256:02d3db02b830fe4edd238a2b3942d793e353248144f8eb51a77da4d8657aeca7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 9,
+      "digest": "sha256:2583a5a48c0cc30dddf3b2edd78b7e57ca0c56be0fd904b504acb603503a1a3f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 10,
+      "digest": "sha256:e44dd2fbce45e14b7483767551b166c2820754f2726742937c467e245e73a701",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 11,
+      "digest": "sha256:8adc134daf1d1afdfe8a30bc20492d4363b36394380e149e7de507235486804a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 12,
+      "digest": "sha256:1452636140addf58816521e895f5ad91ecf0a9de3b7a1b96c724dd69e2f1cac2",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 13,
+      "digest": "sha256:65dfe9aebf9423a99cda0278dc31a228d94ba5f06d31cf95883059ab03da3c4e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 14,
+      "digest": "sha256:0ac2d5d7ca746f9c058ddb6ff554d7b1511b8d726535d40aa4b9bb04fb188c50",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 15,
+      "digest": "sha256:d7192a49c6638dadd840146effede4ce091176ea908f35208702dcd6b1617bfb",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 16,
+      "digest": "sha256:2cf2f55b70f498c4f31c01939fcb73b0faf2376b8bf698dd9e20accf78a55b32",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 17,
+      "digest": "sha256:75461cc40e41183bc406ab19318c8d5e87f3ec2020afc6293d6a09b0f43f3226",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 18,
+      "digest": "sha256:9954b80633782d5b9a7bbb0287009bc9befc3c43607bdaaafdfaf79cabd0c3be",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 19,
+      "digest": "sha256:e94d62036d39061cf7e5fd928a6ae4676ac42aed575938a315e502a7f91ebb06",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 20,
+      "digest": "sha256:3e0224b0e5c70eb87a85e99f44ca32c23e12e4448dc2f2b3bc73f4939d6af224",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 21,
+      "digest": "sha256:7cded29bdd5ff4b9d8f759744bf597c516e49fe01474b90f862572b04ecf9e3d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 22,
+      "digest": "sha256:afeed8563702b316a9e6ad6925a353f444fe8560a0a23d4e80a073577dde1b53",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 23,
+      "digest": "sha256:d4e3a6b543eff0bba5c0f511f314d4f1017676081c15a8f4e3be310b62295471",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 24,
+      "digest": "sha256:6ba13525366492e42231c0996c95455b049167be9dbecf8a6db677ed4d25cc8a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 25,
+      "digest": "sha256:71e704a2655666cf61e71fdb41d20d24fe7fb2239376a39a7661ae89c410f944",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 26,
+      "digest": "sha256:36fe87a3906bbb6115f30d75c2993233af5943a869c9acd99d75ea68fc7af175",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 27,
+      "digest": "sha256:8754136d7dd9b7faeaa66e4f7250604b4221ceaf171a3ffa95fe019e3518a2d7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 28,
+      "digest": "sha256:6312663f4c227844b197032480575fe2bcaa91e5429c443cc071e2d032261212",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 29,
+      "digest": "sha256:57f3e93866476e6f52994589b6d63b450435c964b35b5760ae06b9dc7b92dc6d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 30,
+      "digest": "sha256:578131eaaabff0ae4aeb51e29abe14adbf4ce78a5fea79510f19ea41bca32bfc",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 31,
+      "digest": "sha256:4bf45e2b7ede222529045260de8c90cbfd0fbd40197293da1bb6a325e3d04192",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 32,
+      "digest": "sha256:8c0f1a8d914b0e0420cdef42e054d60b8f2f431741300007324046c1309a122c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 33,
+      "digest": "sha256:fe66de4cc81b99f1a80cb95deec2ca4da5866de3b2f7e57d4cc29522260cfb10",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 34,
+      "digest": "sha256:a4243749254b8cfb462d10d62462139ed0705d288a53835ab0554b8913760522",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 35,
+      "digest": "sha256:cbfdc38af606bada33ea48d580ce8c69b97d3bd6ebedab0fc5a8258d3f099f5e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 36,
+      "digest": "sha256:0bfff8971e535eade40c597319853308229382e66601b98d2a104619e68eff62",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 37,
+      "digest": "sha256:cb5426282b5f5c99634b2a4fbbadf89055d1ac6de7eedbac24cfa5b79608a8a0",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 38,
+      "digest": "sha256:33a505820cdf4dd437ad7ec7cf6455f40d31ea26812a831f466070950967dad6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 39,
+      "digest": "sha256:720364789a157ca062b9b0fb6bd8625a3d201a55486422a37408aaf3d630cd2d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 40,
+      "digest": "sha256:102f7696aa93a8a8e49f931595fa62873b4ebdd000eed8c6a6e78fc4658f5b82",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 41,
+      "digest": "sha256:9a317d49c1de61f9568640d700d54a30c00c204a377490e7fb4ad2e2e8587898",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 42,
+      "digest": "sha256:145d49beb7df78dadddeff6f41b2ad85375d4a8927ce3de49412d774d3670836",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 43,
+      "digest": "sha256:fdbeb1e4b020a436e3e72a59350bee11af80659fe7efa172d253ab11907e9a8f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 44,
+      "digest": "sha256:a956b28deaf497aa5f717ba6ea20b26b2e4a83e922c399486fe835b615224cbd",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 45,
+      "digest": "sha256:c43366ad7f1f06f411d8895af3313840d4c105de300312930931d02e69f94486",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 46,
+      "digest": "sha256:fedf9685b1eb96ad08c25158370d6c267f0ec0b9f57051087c5d19b77f879a77",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 47,
+      "digest": "sha256:6e8a41e2a03b7b1e00a92cccc8964969a36f54aefa1255adc268791f7e19cd39",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 48,
+      "digest": "sha256:d8a9fb4a4cd6a4a823c3605270921e5aed1e063e8b06e92af2c428bdd2b63d6b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "easy",
+      "seed": 49,
+      "digest": "sha256:6e429637c0f25d1126a8e096bdf415d09e2d84a61fbc0b62c26bca3729f8c6ed",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 0,
+      "digest": "sha256:9261095d67f95ae509433bfbe93eba4a0160be1ba8bb37ad1d2699b4550c187e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 1,
+      "digest": "sha256:184ef08da80f83d6874398132185ce4d8d4438fdd6c74748f5005a7996ae2721",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 2,
+      "digest": "sha256:922a41dae414ea011860bfa64cedcbf2ba98be6abfa363b78d80eb22695a1f31",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 3,
+      "digest": "sha256:7956bc5b9aae59ae40f9acab7aa481da0820d870b505c36e890340c26c0eb4ed",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 4,
+      "digest": "sha256:2cc24bf0af2cd37b149862878100794a45f060372798e4461ffee9dca984672d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 5,
+      "digest": "sha256:8ea7fd9093dd769039e3c86e9948cd57389e958fa892ec729e936985b7e49d80",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 6,
+      "digest": "sha256:189585ea28f2bd20cfe11672c2ba8bcf185c322cabc70bde1c4c5588c83086e7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 7,
+      "digest": "sha256:8363258895057b15a7098e9076b7b0672f35ec4c16cb8ff1e99149e464e03a5e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 8,
+      "digest": "sha256:793136ab94b0f96f99dee46bef2644c14200f9318c99aad9cb0ecd8651177bbd",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 9,
+      "digest": "sha256:0f5ed146774e1eba4d52081a02b28ad65dfe262bdfc655cf8e2bbbf28602b7ff",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 10,
+      "digest": "sha256:7db13e71fcfb6fed0557ed27d1dc453ad607f1c7308fbc3dc137c9891f9386c7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 11,
+      "digest": "sha256:ebdae139177845569ca12ada29b989bd27eddc21c2a123f7d9da7d1c372f94f8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 12,
+      "digest": "sha256:4cbba25589f03507b2912dc578e7865f6f533499f853fe4a33b9d7e4ab38701a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 13,
+      "digest": "sha256:c29f18f41230998d5a7eb50c4512aa941bf39bf6200d674043aa3d95afd53d7d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 14,
+      "digest": "sha256:9c13a0346d7452c18ad91aab19b8ac5e7e03f90b8b50c3a34b6f9159816df7dc",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 15,
+      "digest": "sha256:4893d298224f8a171af7b2771fa077790fd87de41519f28f1971188a0ebe0883",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 16,
+      "digest": "sha256:a0383a7885a79f979f6d9567e71f786823c2170d1e15f9e08e04a580e4501bc1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 17,
+      "digest": "sha256:05306c615b7a1dbc13b04f72a11b006c7072d2b1e44bbf3fd516b14951e0ed37",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 18,
+      "digest": "sha256:cdef98467af76c786af13ce59724eaf3c18e7c430d812a26541fea56450ea390",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 19,
+      "digest": "sha256:d9b9fba16feb0445c1163d8d348ad5ac114eed8cc8b017e41d50468e1a349da4",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 20,
+      "digest": "sha256:21f5b8fca2e209e13701f6b80fd78864072b4d4eb32b779fc59b57fc28e4b8db",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 21,
+      "digest": "sha256:acd4b33365edcba13304878b8cae81790d2fd9d38dbc3ec180aa25f298fc1e1e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 22,
+      "digest": "sha256:bf3f478396fd3cb715ed1f39c61aa9d93a50efec67f33894bb51639314306621",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 23,
+      "digest": "sha256:589b2a3a1744b1f2adba9a2f7f6414484ff788f5d117a58e7e3bdcc23adb08cb",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 24,
+      "digest": "sha256:d7c4c2f506d6d44370d9d2e3b95fdf91aae99cbe49a986a295a2217573eb1229",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 25,
+      "digest": "sha256:1e0c074bafadd15465efe38c03be3f975b341f55dcda684ba28a23f4ace2fa7f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 26,
+      "digest": "sha256:892b711c2ac059d01fd174e0fb81a1ec8725b3b733f58e9794a55de033f9dc6d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 27,
+      "digest": "sha256:a97e315b291d4ee6d00c76ccbd4d3acaba0506f518a9e9c116a0f2a5169589b9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 28,
+      "digest": "sha256:2c7ba93deb4d8d4a961e69f1600c05e29c985031b89bc7593475facdc34398a8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 29,
+      "digest": "sha256:ab3a27f17e9759ddb933b6835bb3f2f25654796df8577009cd39c44a612f8c0c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 30,
+      "digest": "sha256:751289c49d0ecfcace045949c9771a4bc1e24d691b1d71ac15644cd4bde708ea",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 31,
+      "digest": "sha256:e0fe94183b61082db7aa6d43f97f9b2ee907284140a562eebe7818deecedec8f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 32,
+      "digest": "sha256:339edd38d892bc9dc5547ca2fa4e1f176e90ba79a08ecc1873f4f04f953b6732",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 33,
+      "digest": "sha256:d9b9ecbdd6d276d141013091e8e360e9d9c87c6f0f0c1883206c75c34dbdb5e8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 34,
+      "digest": "sha256:eee1008ae7e150e457590e1cd286b8bfb5fab6e1252fd4a4d22831a6aac96dc2",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 35,
+      "digest": "sha256:6b222f5974df200824b90d67ef83f8d2af1d5097ac1afc516f92ee714254124a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 36,
+      "digest": "sha256:345b5eb240f475f6cf595e0b35ce9487611be6902f90c1badbc9c62ac26958c1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 37,
+      "digest": "sha256:4652780e82124be7a25c950233e2c458061dcce981f3b08bf624c56997ddfad9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 38,
+      "digest": "sha256:9106a64c4945c1cb16447da0ceb2a95d38875dee068f77311232b5989db3f86b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 39,
+      "digest": "sha256:f6e802bc5cd0e7cc26de54b122dc7b33cce2e8a82c63b355a0984b7e294a8658",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 40,
+      "digest": "sha256:631d6d2bad0f11f99f369e33be752636ad8cc4bc5ca6f809353b0c1a5fceaf86",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 41,
+      "digest": "sha256:37f2476bc019a3e900aabe2045a4ab2d039103aae626b7d1614f9ba1d1c0ee48",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 42,
+      "digest": "sha256:1753a5983b4f57c70fe66c5deba60084838ab26b8428d615f342464a4af11b7d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 43,
+      "digest": "sha256:fe86c9f59e5addf59ac6769bf016c0c5e0c108fe41d3dab29197e8da3db8970c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 44,
+      "digest": "sha256:9d28472582fa7aa9653399369885fe287ff42f99237a83a81a3b0b332f64320f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 45,
+      "digest": "sha256:5e86a1e36d7588dc4b910aa22bb8a0af677acee8adf29834347b0a646439d91a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 46,
+      "digest": "sha256:76985548c098440944baac2374c19b3567fded3abc2bd5cdab44abde3b0a16e1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 47,
+      "digest": "sha256:eca36b27f1541da5b699291338560223ffecce3fd0670bbde50936a48a4bcda0",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 48,
+      "digest": "sha256:424cbde25f08054756d8b04082aa109ff1de16a079d67feef18a31efa6789def",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "medium",
+      "seed": 49,
+      "digest": "sha256:73a63b7404b4d3b9825c396f7011df638b19bc1e8eb9b15d1bf9baf197d584f2",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 0,
+      "digest": "sha256:c3666bee66780f515ae27f690aa6d251b7e6659c3d11b4194d830ab767c48abf",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 1,
+      "digest": "sha256:1a4a4a060826867bc9083e1378c997d95f3a1b2e187c0e41d1641815778da7f9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 2,
+      "digest": "sha256:aaedfa46e440b3853797c8c39220e72fdf75c2c0f5fb78309103ef867bbd6f82",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 3,
+      "digest": "sha256:bdcb4125e9c2007bb7a0ae5b57d5ebb103483c2a4a1459cfb7f29daec92545a7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 4,
+      "digest": "sha256:4ec44e38f484ed22067212bf273010a2edc892f44844e199f7bb713d1690274a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 5,
+      "digest": "sha256:6ccf014e7d387acfb8c392fcfccdf3831e5ebe510e882e0e4cf8f6b52193d25a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 6,
+      "digest": "sha256:b2416ffe5200e3aa4ce12b4ca3d9f9e6ea13f27366d9e296ddb1e0a92261e398",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 7,
+      "digest": "sha256:1bc3044244f4ca1344443b32d4e27b5ad0d0147e1607acae0e539c48c8d4b4e1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 8,
+      "digest": "sha256:acfb9d36a9d5f8767e5962f908e920b9cac93554dd6eb8e18565931da231c486",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 9,
+      "digest": "sha256:a39633bcca3beb31dc5ac86ce63872c71388534c12faad13ab73f5c98ed04872",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 10,
+      "digest": "sha256:cdb4b795da2d874755147f4aa6c7279fec0afa18f545649106721a6de8a0befa",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 11,
+      "digest": "sha256:e303a77f57fc78f3b8a181017eee4da0c31c2d4fa85fbb77f2d0a2f6cbe674dc",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 12,
+      "digest": "sha256:e23fc4b541bda535fbe2836aef87c890382e2112a9c16bf1431f276204b77d78",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 13,
+      "digest": "sha256:9cb797c8fb6c0cfe384115de6224d991e5c35465108fd3b9f840875f2312646e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 14,
+      "digest": "sha256:39d2ffe4bb385eb0cc90cceecddfe98e03a66db9dca0755e31f3e22dc6e01feb",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 15,
+      "digest": "sha256:e23fb16556c66ec66403e67a8ced72d2c81508b10cfc36b0d558099e51265631",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 16,
+      "digest": "sha256:356de867638167bf7c84f5bc3f518697e0385d4351357cebfa99b5ec19a14092",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 17,
+      "digest": "sha256:aa3e0f1f100c95bbc9bb19fda0fc0909831de52610ed5ae917ef5ed2bfcd4c39",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 18,
+      "digest": "sha256:4f5ce76f982c155a19df6b3aa6f982b3381469d478293ebdafbab8cb44e5fad5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 19,
+      "digest": "sha256:68ffb2f340bef3e3beed523497fed813deafc54b85307ba27a78e7174c792d30",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 20,
+      "digest": "sha256:b2b3a89749f6bf6f58471ce7f49991d2ba1479b01884656b461a19a16b9c7c14",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 21,
+      "digest": "sha256:f1a19f7b07cb4a1412d58f0f6a3d8d7b50469fbc0e8c96fe01a58d1836c284ab",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 22,
+      "digest": "sha256:27badfcdd7595ba61f9f21b8af3b0b76b864e3adb8392bb8d4fb9ef65215cb94",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 23,
+      "digest": "sha256:6ce5b649fdea8462c5ad3448c024aaf51a16d0e3e4a8cae982fccace20431511",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 24,
+      "digest": "sha256:635ce9b5f59054827a73e2d78f7a949925e4e048c702c89dd4a5fda96bbf059c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 25,
+      "digest": "sha256:33601cab6009b7e584caa9649489a3d1741240c32d0ea9fa887bce41d5667ba8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 26,
+      "digest": "sha256:2549c4fc1a016c27d030113adc6a0a29d1cc2b2a562201dc3cc327f1a3ee72b6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 27,
+      "digest": "sha256:c37d03b314c73746d50beab49f5db83da693a6278c7ebae59007474ed9ed3a35",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 28,
+      "digest": "sha256:c0e5533765cc807750517c1a47fbc640e1717660530deee148e0aebe6f63667a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 29,
+      "digest": "sha256:e655858087dfddcc3dc35ccc550cd15cec00a34dcb4d455c5a28357375f86bdd",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 30,
+      "digest": "sha256:88cc112b7da271e407369c937723050fc5b26e0f47e56933a3bf5f3aa3479000",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 31,
+      "digest": "sha256:6303bda63e17e80df4c601cac41cf389ba883f2ef76d6891e5ebd3f5d2d2d026",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 32,
+      "digest": "sha256:a9ec917c2c31e889fd5122a5ecb652c75efaca8cf45c52cddbf533cb75ea4331",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 33,
+      "digest": "sha256:a748c7e1dce330bfd1415d84a85ba5830470221f2439e3e0a85e7387175068d4",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 34,
+      "digest": "sha256:8c5fba26413d1c60d20206144bd2aa5a9ab509816846ea2a185088e81c6e14c2",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 35,
+      "digest": "sha256:f2978eced46e7091f818f49bf3ca0538dc63064bd999e2ce717d83b9ac333f72",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 36,
+      "digest": "sha256:563f2730c338dc9f6bc153e8630ee013a317516831a370df2395a932f17a864c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 37,
+      "digest": "sha256:7eb91db27d062418bf78714e4289dc284a2dde696e3c28d44e48dbf358e6b638",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 38,
+      "digest": "sha256:e1162f7a5e48c851f42efc38797cf420e08e20c9e0727cb978d8d9de7e21a30d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 39,
+      "digest": "sha256:ffc2b263b369ac0ca17de4cc39d745ee61cb004b51d069eb990dae8ce92008fe",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 40,
+      "digest": "sha256:941db1c867825b93458ea9c13a20bb10c5a80aaebe6660f1e6e5e22e7c52a0f2",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 41,
+      "digest": "sha256:8598db3ac3ccb882e579accc589e3b85f5756186d7e56cb9705afb9274818740",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 42,
+      "digest": "sha256:1c5db92a1500004d2c3ac0b3d9c8e24bcccdeba58140d47678b132087c102b75",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 43,
+      "digest": "sha256:f3ff6374c17d45554dd5bfd5176ad0aaf8b937bb82217a9344119b6924347f6d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 44,
+      "digest": "sha256:dc8f75943b106a8bc1b49b47d5eb9df56f88b47fe8aa046b02cfaa40db722a71",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 45,
+      "digest": "sha256:65cb8996830eecb36e1736ae063d86f1b5f386ac45bdbb9594e3a33f90a2dbf2",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 46,
+      "digest": "sha256:2f23e49986c3d6182bc03ad6b0daad062856591b1818424ee4c1392c1246848c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 47,
+      "digest": "sha256:54d137057eaae01ccc2b8f71e55e090dc68668fb24dd6bc23519dedcb9b00d1a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 48,
+      "digest": "sha256:2a717117124b129e95efe0ef52506487e4ca99628aa4c81ffee007da9c3c6ffa",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "adversarial",
+      "tier": "hard",
+      "seed": 49,
+      "digest": "sha256:5f11c31f3813b9d0deb38a24f8a2a519a04846192561c29cd85de862b2b46565",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 0,
+      "digest": "sha256:42b27970ae0278febc3f4bb5e7c5e21e5d70d2982dff91e2ba3a59ef3a8cc4ef",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 1,
+      "digest": "sha256:418e4be3eb4d2d17e01bb86b918d50aeccc0d1c926e0ca11a536539ee2c93828",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 2,
+      "digest": "sha256:2b47c8dcfb57b3cb666a97caf9c47c33dc30418936f9debba68a7d08b25db336",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 3,
+      "digest": "sha256:5fb57037b750c03b36fb0b9cdce915779463dd578848fba195ee0b1a06546224",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 4,
+      "digest": "sha256:7fae0062175becacf1e8d0ce80dd0dd0cc1b7ae636c82dbade0f856c2c612d2d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 5,
+      "digest": "sha256:2ae69c5794c58ea8706ffb510e9e9889a2de7d3ae66734701839a703e55a5dbf",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 6,
+      "digest": "sha256:34c3e48e066b78204b857313b816f4c8a2a594b906791f1fc41090959d6f8ca7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 7,
+      "digest": "sha256:eac19926afb16f8ce2cdb1b09b88048b75f6231d29e3e8698b49d640af2fd44d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 8,
+      "digest": "sha256:9807814a3435c3ca4f6df617229b55a521df3c693a8915e8c1457392199a49e0",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 9,
+      "digest": "sha256:1373489bbb53c56681877ec67da5ee9c5602a1a75b9f42e55281bc6ca8147257",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 10,
+      "digest": "sha256:76b76522873a19205310f1210462e65f0ac3b46dad886b8f83a10a5bbe5fc042",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 11,
+      "digest": "sha256:e96292f9aa53224ee967ad3a4c98b749b437636e770a2504bf31cc96a25498ca",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 12,
+      "digest": "sha256:224e5abaafb2a69454b8bc18dfa78b4ab7d4768fa679344174948cb0148b68df",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 13,
+      "digest": "sha256:f5d0d0a4194e19579745ad2ba8f9a590d3235d10142189fa9fd8d75e7447d70a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 14,
+      "digest": "sha256:f8c138e6ae6a3a9b620c5dc7e32e6cb31a0805d450c627fe3eba6c499b91eb97",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 15,
+      "digest": "sha256:904999c814c8d5ec8e53c22313d8e4328368307561f7badd9c5c32977d73f25f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 16,
+      "digest": "sha256:a05a762f59bec55fe4995dc7fd468f3e49dfcbb27aaea7c7d92381f79af613c7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 17,
+      "digest": "sha256:40f3f320ada70f16985e04e1f253c5c52c3759072d23e4019d98653900d47e38",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 18,
+      "digest": "sha256:ae9dea6c14507e434eeb7168deb79d72c85e1e9754458d27218d0456068fcf47",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 19,
+      "digest": "sha256:1cc3c8df9067022bac67a2f1106d83a81288133be634e0ad9617920792d92074",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 20,
+      "digest": "sha256:818ce9d699a8b71bb767c984ee9c6dfe34145dc9e505fab321dab92da2220f08",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 21,
+      "digest": "sha256:88b03aaad2df7ed7f679cb13a153cabb18c83a704f55c6a34123eac58c5c5216",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 22,
+      "digest": "sha256:df4acc5d80839d995bf359af7d88a93308d08340b00bd1535d033a129377fe85",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 23,
+      "digest": "sha256:808b27067cb8ff3125014800e24d92c4b89f23747b024d3f20e6572b77d97bc9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 24,
+      "digest": "sha256:ede59e788fa558b7ea857bfcfbdfbce078c9174c98219821104663ee3dc5eda8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 25,
+      "digest": "sha256:1241652fc291896c2a6ba889115319e5474dea0280dd5a43f0f837e17070e6b5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 26,
+      "digest": "sha256:6658b2bed52ebf1d39422cd33d9198b625160b348f1d9385a67a173dad8a009e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 27,
+      "digest": "sha256:e2ad1b3de85018241ed48ffbc0d2a17ccac6ab8044bfedd0f24b7d4345382a14",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 28,
+      "digest": "sha256:09d66274030047fb4679273778a54987c8bc0c60d864a62d95625277cc814b94",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 29,
+      "digest": "sha256:29755333b48da27e639dcdd1b69330f07d0aa8febfc1bc3be21968331d2fe43f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 30,
+      "digest": "sha256:e2c88d396285d9c7a7abaf1ad2cf2392b39c541f921bea9d45af74bf4d02de22",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 31,
+      "digest": "sha256:ef3bac87402f31851c22ae0a0f2cdb0ee27b766e396133d0e860f2dbce0b5de7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 32,
+      "digest": "sha256:2b282d4bcdf4d47a0f281b33a957278bc78fa33aea7a3e23e179b5c4bcc14818",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 33,
+      "digest": "sha256:50c800c3c3d6ea34f5669e5cf7e22caf5209264443d97f87ae8aba8e393b5efc",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 34,
+      "digest": "sha256:40c26964bd6876438ad1f0b94956f0b6a7f8399f38b7ecb6ef7106276efc1049",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 35,
+      "digest": "sha256:b17bd3c6b8703d5584d3f89e03ec3f4149c7249eb76d7001e594e7f0d18deecc",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 36,
+      "digest": "sha256:febdd162847d6fe045fc6793e24452b650e323d463553ca132e4150725f192a8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 37,
+      "digest": "sha256:04892a3338cac8ce66d386fd1658a2831c84f4f0af4a2fbfcc9a5a78ce65d11d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 38,
+      "digest": "sha256:cb384ca60a8c340c64c5937a6a128e60a7f46406cf1b6a36fead2855ba100677",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 39,
+      "digest": "sha256:d3dec9fc12eecc7115f0ed1109b4ef1accfaff7caa17af7dc0df92eb9386b466",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 40,
+      "digest": "sha256:2d17930259010e6ad5539bac577bd88ec7119b75e5ea7360e9efe803bc9ae54b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 41,
+      "digest": "sha256:9f8aa56d66c10a660a54b9d0dd6f0920760bbd10fa585e2b5316fc9d52073c07",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 42,
+      "digest": "sha256:4589f6b092caa6686e0a554b66df931494268f6d6f8ac1607069321ae72cd258",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 43,
+      "digest": "sha256:9d8caa0f28a27888fd7b8adff0293db84b17d3fb262768da3f8517610dc91550",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 44,
+      "digest": "sha256:b90618475143872bfffefbd94458ac6404b735f11e039c93896d3e1e35ae8cc9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 45,
+      "digest": "sha256:67903304440e06edeb04849dbad43eeaaabde34a271a323bd45e3b6c5f62c830",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 46,
+      "digest": "sha256:6cce1bc6b80539ec4cf42d7eb07c4afe0665453f3f5b574b61280fddd90caf84",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 47,
+      "digest": "sha256:b5f9d057789cf9f74e1200cf729ec56054cfe644801180688b43f22689811828",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 48,
+      "digest": "sha256:7deec4dbb8623a524694a534a816ef18e82d65d59a1b73c5ce91d452a8ba9bb4",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "easy",
+      "seed": 49,
+      "digest": "sha256:2aaea67dd7d6cabb82c0b00a44f3a0bca9eb9efade82f54d97abdf3e72bcd521",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 0,
+      "digest": "sha256:8bdfdc192cb1aab04cf0967e28a3d04ea9d8495383e2ea69b0a3613ca5493782",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 1,
+      "digest": "sha256:5e323e72b90ebfee3a6e12d790d1b9745188ee540c15511e28f82a8cb37c376c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 2,
+      "digest": "sha256:f6d3816d001f1f5f0bba6a26188af4c7a0963a5bc8c40e9657166c283f73aa35",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 3,
+      "digest": "sha256:4b4302b5db19ff595ed050b4a421e762f76d209ed315a63b95ec60be07b88a70",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 4,
+      "digest": "sha256:9462e023c9bbbdc099f9b6839fc23ba6667679d9e9989963dc73f0f102472a04",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 5,
+      "digest": "sha256:5f8b6591878ed081025a13b283c240a47ca06a62bf938a6509447e7546149a3a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 6,
+      "digest": "sha256:a8e5812611b92fb28cdeeb3f02b681a4326d90d0e15c1014ab382c045cc67c72",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 7,
+      "digest": "sha256:0879fbd7a8d5dbd5bbca0a3e1b471a3426d582c7bbb574cb4313d9cc8bb41623",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 8,
+      "digest": "sha256:59d474cb9fac823f4a57af21f31bd6f477852c77e465234cb385fb1f3dc06c9e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 9,
+      "digest": "sha256:ea4c3b9e2a1ce340d790efcfde5249cb1bb0f4abcb75d4812e903622092930a5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 10,
+      "digest": "sha256:699d8c5eff308b9bfa4968eeeae072563e9c52696ec635fd6c60fc13e8c1e6b0",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 11,
+      "digest": "sha256:ab887908bffbf9b9937a3ac2769918a49130f86fd20acc3db322cd2a1ddad7b2",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 12,
+      "digest": "sha256:e4a45d6df2809bc401f30eb6e936766da12e47891adbe04b2ac683dae0981e40",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 13,
+      "digest": "sha256:9d8b4c355587c90bd454a1a3671368218db9f5757fa1172ce0f8741654e2abd0",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 14,
+      "digest": "sha256:82f168f9335b835bf4b4581159765b8cde48c1d1abafb36ee539c518ffcbad59",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 15,
+      "digest": "sha256:bd1b94dd3fae240da3e16c8d5165932bf6edf72883d78c82df3d2bf85c09e9b1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 16,
+      "digest": "sha256:78d9ccc8cb6969c3a939c242cbf4eac2c462d61101de4f1d68fd32d6c4d6a977",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 17,
+      "digest": "sha256:61352f0b3cdc00e586984cbf2a079037ff5caaaad07b4405e04c95f8dc9b1a46",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 18,
+      "digest": "sha256:ba6ec010b594fa30b372118f4521411b2080992423ea83c6ef16f7aafc403e41",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 19,
+      "digest": "sha256:4dfefe4c2fd09229b93b533bb7b1577b6933f4f5eacac6efcd3a4b039fa7d354",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 20,
+      "digest": "sha256:1649998c7b64578b84b675ea0030c82a8908ccc9e49c5ac06152002e601a9ae1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 21,
+      "digest": "sha256:d4d0d40c2b436b8f70bc665c8097144c934948cb67b7fd67f18cd6789361f33f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 22,
+      "digest": "sha256:7ed50dd4998fd145ac010a6535d4a3b14b3abf06f4f7bf3085bd74f7714921eb",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 23,
+      "digest": "sha256:fd3925a75502d28701102abf3b5a4dbd72c14257d619f0423b721f7686435cd7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 24,
+      "digest": "sha256:8451e550dc39f54176ae022e47ed68f09aae2b065c987781602de5a6a0bba7c5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 25,
+      "digest": "sha256:3a44123f44c48a78691d9c89842cd0fe8dc27fe84cd70b9ce641c93eede9fbf6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 26,
+      "digest": "sha256:c2d6d208d9f87d8030cd1023f4ed9b4f19fd977d1ad368be8aba7019ab7f7b61",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 27,
+      "digest": "sha256:b64a64325f1d7449a15d52de9a6f400fbeb82399d836f170063a1ca643dc3597",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 28,
+      "digest": "sha256:32c9321654ebed9c01239fdd28da85c860e9beaeda918b0f7e9d7b6c5c56d14b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 29,
+      "digest": "sha256:c58acc76cf4d9ac5195218f295c76ae24b710e551466ac82540013a417659992",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 30,
+      "digest": "sha256:753ffb5b3ce7619ab302ca4044ae88abb9c2ea743ce94c48cbc4834f6e168d9e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 31,
+      "digest": "sha256:a313b6507f3e29b16e229becc94f2940a8c03e031ab6af2bd55109a163dddb92",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 32,
+      "digest": "sha256:f330c1440a199575b141e94ddfcd26a15fd3e8a39e88f3c32636ca63c7010828",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 33,
+      "digest": "sha256:6639fc8bef437e04ebaf110a95e3e2c464de0809b5f2dfcaf1ac0deab62daf42",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 34,
+      "digest": "sha256:3789b91acdebcfe8b85fe18b70a0f08d693c921f300e654be0a4cb32708b126d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 35,
+      "digest": "sha256:d107c23069096d20e05cbec16862f79c2f6e14ae6eeb636f0714aa853cab02a6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 36,
+      "digest": "sha256:e206c77c72eb5432bacd752f7a36ed40e1397bf51700afcec46060d25a8601fc",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 37,
+      "digest": "sha256:e3fb9aa92b81ab2dc11aefa942435fc4072f39f8e8e5420fc43e98c9db53871d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 38,
+      "digest": "sha256:8fb5072d038b32bb0c633a25a0af1202bba13ecdc92e2d5a24949f9304ced416",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 39,
+      "digest": "sha256:8f5985d9c6dbda495f8e7bcc54949f2041f470114fc822d6b5f5b35cdec39f74",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 40,
+      "digest": "sha256:43b074af120d8a65779f78ee6ab164c5edb0afa35dc93e0b58646c8a44f04432",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 41,
+      "digest": "sha256:683eb7073a1e1573b9a408a58a5a4226dd1da8e5af1642141ddf52290572fe25",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 42,
+      "digest": "sha256:2dd0d4c95ab62c9dab439046d326db88c8f65272db1fbfb4124893ca6d938be1",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 43,
+      "digest": "sha256:96ec07d2df02af973f3a0f5b6c913f99e44a9f12898918391c38239f3dd9574f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 44,
+      "digest": "sha256:6d638460a4f44f10e4e3364312629a8e86776b07fb0901277a27b6d873f5cefd",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 45,
+      "digest": "sha256:71a35d81da3e8114f0b98164f169fa0eec2637be80a375ec2c6b9b0f5961441a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 46,
+      "digest": "sha256:30c408c34f9c0fed2dabc68f4d2f93a9a9fe4774927900a94dd9ddfa2c1741e6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 47,
+      "digest": "sha256:c7bc4a0abeb988b5924f06daa34a6e13fa8147a2eeef897445d9cc7214c7fc6e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 48,
+      "digest": "sha256:7428b7baca987ec9e7d956b16744c6bb81e07ba639dfbb3bc5bf14d85473c104",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "medium",
+      "seed": 49,
+      "digest": "sha256:ac658b849fecac0197b721c8ab390affce835f60ec644ff806cf4d10cee8176d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 0,
+      "digest": "sha256:640b03da217deac77855e6320f4a7929d1185e2d015bab01c3359db8ec1aec01",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 1,
+      "digest": "sha256:00b903f72abc9e0539eccffa898044c0153673c36eaf73efba99b217175f9752",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 2,
+      "digest": "sha256:0ef37bdd56ec2a0419e199992462e8c4b30d351e8f81076a24b5920de95721a5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 3,
+      "digest": "sha256:9e9886db868d4081396b8716dccecb4514b8b945448387edd7a1a61a544add0d",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 4,
+      "digest": "sha256:3f984364a0f19e52ab1bb13aa09abf495edefef4f08f8e967ca8c1dfc9c27fa6",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 5,
+      "digest": "sha256:6c2340aa25d1e04ec964a573c3cb5e14df8775e3c6a6e73ddee067e3618402e2",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 6,
+      "digest": "sha256:25f440185ab0e7a12cb3c55cc91414122ab14c644966f33dcda5931ac2129f79",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 7,
+      "digest": "sha256:0886e35923407e70e9f58466c5ae8864dafc4b862746b814e98a69f64d4da38e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 8,
+      "digest": "sha256:3764579ba846254a9ac709b772186dc64b7df6d5bb768ece9d73a17a25a0606c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 9,
+      "digest": "sha256:b35a653d1489ebef96d17b84db4a0172eec8f564ddf6991575fda56d6221f837",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 10,
+      "digest": "sha256:a915a1b56ce33c7197e0eee3f74c66346d2ba35c7aed91e1e336086c82324b7a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 11,
+      "digest": "sha256:de715b939d8ddb72324270efd1e440149112b393fffc2d465a1a88276ace8245",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 12,
+      "digest": "sha256:76095d9964c53c006e5f9f0ae2abce7132d81ea4a656e5fbe7785942c808f944",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 13,
+      "digest": "sha256:f915cad7b0922550343232064a75d73016c79bc0468688d2e149151501bca950",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 14,
+      "digest": "sha256:3f50e60aef4c2bff55c0724163eaaaa5ecb8591eaa5e721ffd0c8fbeca60ea13",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 15,
+      "digest": "sha256:6c1bfbd618c57e34dc11b5880c1201d43e8e1940b9d05bb6a65ecd95bbc25e48",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 16,
+      "digest": "sha256:0702df0fab92e6b14a6e16dcf936209012cf2fdd7d65afdff11136e7120ad34b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 17,
+      "digest": "sha256:ca4c3c7756d5f1a4b20e71892ac34646e8f4f2540ffec9b5fb2cbc4f783ad191",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 18,
+      "digest": "sha256:0bd9c2b0e1a2fbd7272fc53c902244a1892a240573d7217622145042369ec52f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 19,
+      "digest": "sha256:3985f1884c875a021af678b11bfcb5b731174d4165bfd63e0d0c47808b7f7aab",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 20,
+      "digest": "sha256:95b913764c6ba60cb707af85eb714e8767a5db8ac072ab12eb145860ead20b11",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 21,
+      "digest": "sha256:187e4ef7bf8352091280ed0f11bc56fa7901a40406f843c08207817f1c7d07e2",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 22,
+      "digest": "sha256:1dd5380323b9b407c24b89ebc060517d1a26d650245b395a421fd7254ab1ee2f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 23,
+      "digest": "sha256:c6ee5456a018385d2e4763ed0020a8fa4e8f2985bde690472c07eb8a9a013f04",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 24,
+      "digest": "sha256:5534a0d2c719330450dc1dac863110df8345281dec3c35672fdb648228acc213",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 25,
+      "digest": "sha256:9e6a76ba8744602edfcb2502457c7ccf0709e7dec58b959dc98dac0f244d60de",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 26,
+      "digest": "sha256:85b3a340f34256480a099f1d16378b128ad2f376eac2de4491b55205f898a6e0",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 27,
+      "digest": "sha256:db5107fec787b9435d183bee9f3da430d57c1368cb0803f02cde8c04ea7a028c",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 28,
+      "digest": "sha256:0058d66c80b4f57a00118694c94b241eb2fc1cb74e39dab64630881d0ce926c7",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 29,
+      "digest": "sha256:bdc00cc1aa828622787b0855104f96bea3a72dec297a46cb26bf71ec1b571729",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 30,
+      "digest": "sha256:f5da672a300e070006bc88c72f78dff9a4abfa7d6fb37d3e9b2112cc8857130a",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 31,
+      "digest": "sha256:98f3b7fae8928e8640794bf6bdd1488364fece5645ce10f311f24e4dcaa77386",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 32,
+      "digest": "sha256:5ecad522b84ae8a268177f31010f757a041e9aeb77664a184efe394b93e3264b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 33,
+      "digest": "sha256:d30fc4ae34a1b5c9df8576308b98f9e0bf18823533f6769b8eee22c0f4dcd9f3",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 34,
+      "digest": "sha256:cf0d0a669da7c3e4e9b287db0f24ebbb9af9d55cc21422e76b7b9764b7dd67c5",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 35,
+      "digest": "sha256:25891f87683da678e65cb2cab273974e7ce60ac1b6b5c58523de856ec372e408",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 36,
+      "digest": "sha256:633060a952a3b97f3eb5db757ab924d959ef8bb125b450299b38328670873378",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 37,
+      "digest": "sha256:c77ff868782131a21c8ea8d7aaca44e0994504b83dc58ab28da6910f238944ef",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 38,
+      "digest": "sha256:29bbb9853d72f176662f531bb7e803fcc80b7fa7e3699bb772afb23908baa33f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 39,
+      "digest": "sha256:4b13dab32732f183204fc1e49682cf4fd2547970bf60d9c707dc7a6be1a8d54e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 40,
+      "digest": "sha256:b9549babe61aea7428437c0b75134ebd416243d7f47f24af2a269333d8a7c2d8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 41,
+      "digest": "sha256:6e7b25668425815de07b586ba413b4e05dd4d115ce6c71591dd3fb63e3bffd27",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 42,
+      "digest": "sha256:d7d7037071851a86340904f43e308189f90a7c45dc9cdbf5c9d968e18f505da9",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 43,
+      "digest": "sha256:61daf530b64f6ded2560fd55ce671c0d8519b15103ffd83a4ea72016f4199910",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 44,
+      "digest": "sha256:190dcf1439307d0587afd43955b57ac7619741bb44226651a42e9b3da2ebb27f",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 45,
+      "digest": "sha256:f3ca0d1b1e14bf7cf1ff8d5903297f8d6a48df342a2f9d3d4a54a701a61a5977",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 46,
+      "digest": "sha256:3346c322354255d88984963f5ec6d0bc0bac94533376048780306eb86e5b444b",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 47,
+      "digest": "sha256:344a250713fb0ae0a8ccaf47bf838fceb3242599c058e18c0895584a81937a1e",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 48,
+      "digest": "sha256:c616642f78f444d589cd060a15d33d2af9b61bbfb3cf91e48be56f15d1e4dac8",
+      "success": true,
+      "reward": 1.0
+    },
+    {
+      "suite": "heldout",
+      "tier": "hard",
+      "seed": 49,
+      "digest": "sha256:1afc41dfbf8adb6e772d6e8da4dfbe263b5e382aaba519f7a4a11d5697d9d657",
+      "success": true,
+      "reward": 1.0
+    }
+  ],
+  "limitations": [
+    "Reference solver uses private truth",
+    "No independent model calibration",
+    "No human SRE realism review",
+    "Public heldout generator"
+  ]
+}
